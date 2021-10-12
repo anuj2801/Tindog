@@ -1,0 +1,73 @@
+/* ID SELECTORS */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#iphone_title {
+  transform: rotate(25deg);
+}
+
+#features {
+  margin: 50px 0;
+}
+
+/* TAG SELECTORS */
+
+h1 {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  margin-top: 1rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* CLASS SELECTORS */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "ubuntu";
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Monsterrat";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8178;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
