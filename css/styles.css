@@ -2,14 +2,20 @@
 #title {
   background-color: #ff4c68;
   color: #fff;
+  padding-bottom: 7%;
 }
 
 #iphone_title {
+  width: 55%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 26%;
 }
 
 #features {
-  margin: 50px 0;
+  padding-top: 50px 0;
+  background-color: #fff;
+  position: relative;
 }
 
 #testimonials {
@@ -29,6 +35,17 @@
   text-align: center;
 }
 
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
 /* TAG SELECTORS */
 
 h1 {
@@ -120,4 +137,27 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.footer_icons {
+  margin: 20px 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #iphone_title {
+    transform: rotate(0);
+    position: static;
+  }
 }
